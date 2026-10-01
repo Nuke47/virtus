@@ -1,0 +1,11 @@
+{
+	"title": "Bounty Hunter System",
+	"description": "Sistema completo de cazarrecompensas para Garry's Mod",
+	"type": "gamemode",
+	"tags": ["roleplay", "fun"],
+	"ignore": [
+		"*.psd",
+		"*.svn",
+		"*.DS_Store"
+	]
+}

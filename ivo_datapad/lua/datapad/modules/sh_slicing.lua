@@ -1,0 +1,2 @@
+-- Módulo de Slicing (en desarrollo)
+-- Este archivo queda reservado para implementación futura.

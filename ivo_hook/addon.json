@@ -1,0 +1,11 @@
+{
+	"title": "SW:RP Grappling Hook",
+	"description": "A professional grappling hook weapon for Star Wars RP servers. Allows players to swing and climb using a realistic cable physics system.",
+	"type": "weapon",
+	"tags": ["fun", "roleplay"],
+	"ignore": [
+		"*.psd",
+		"*.md",
+		"*.txt"
+	]
+}

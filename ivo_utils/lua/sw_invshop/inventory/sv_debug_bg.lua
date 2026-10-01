@@ -1,0 +1,1 @@
+concommand.Add('sw_debug_bg', function(ply) for k,v in pairs(ply:GetBodyGroups()) do print(v.id, v.name, ply:GetBodygroup(v.id)) for id, name in pairs(v.submodels) do print('  ', id, name) end end end) 

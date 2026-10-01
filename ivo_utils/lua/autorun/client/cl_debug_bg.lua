@@ -1,0 +1,1 @@
+concommand.Add('sw_debug_bg', function() local ply = LocalPlayer() print('\n--- DEBUG DE BODYGROUPS ---') for k,v in pairs(ply:GetBodyGroups()) do print('BG '..v.id..': '..tostring(v.name)..' (Current: '..ply:GetBodygroup(v.id)..')') for id, name in pairs(v.submodels or {}) do print('  ['..id..'] = '..tostring(name)) end end print('---------------------------\n') end) 

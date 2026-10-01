@@ -1,0 +1,1 @@
+concommand.Add('sw_test_flicker', function(ply) local count = 0 hook.Add('Think', 'SW_TestFlicker', function() count = count + 1 if count  then hook.Remove('Think', 'SW_TestFlicker') ply:ChatPrint('Termino el test.') return end ply:SetBodygroup(14, 2) end) ply:ChatPrint('Forzando BG 14 a 2 por 200 ticks...') end) 

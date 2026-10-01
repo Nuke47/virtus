@@ -1,0 +1,1 @@
+concommand.Add('sw_debug_bg', function(ply) ply:ChatPrint('\n--- DEBUG DE BODYGROUPS ---') for k,v in pairs(ply:GetBodyGroups()) do ply:ChatPrint('BG '..v.id..': '..tostring(v.name)..' (Current: '..ply:GetBodygroup(v.id)..')') for id, name in pairs(v.submodels or {}) do ply:ChatPrint('  ['..id..'] = '..tostring(name)) end end ply:ChatPrint('---------------------------\n') end) 

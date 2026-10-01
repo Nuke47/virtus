@@ -1,0 +1,1 @@
+-- El sistema de rangos dinámico fue reemplazado por rangos estáticos en el cliente.

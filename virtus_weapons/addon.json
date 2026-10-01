@@ -1,0 +1,10 @@
+{
+	"title" : "Virtus Weapons",
+	"type" : "Weapon",
+	"tags" : [ "roleplay", "realism" ],
+	"ignore" : [
+		"*.psd",
+		"*.vcproj",
+		"*.svn*"
+	]
+}

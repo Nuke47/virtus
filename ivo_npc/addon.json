@@ -1,0 +1,11 @@
+{
+    "title": "ivo_npc - CIS Droids (B1/B2/BX)",
+    "type": "entity",
+    "tags": ["roleplay", "fun"],
+    "ignore": [
+        "_backup/*",
+        "specs/*",
+        "TESTING.md",
+        "*.md"
+    ]
+}

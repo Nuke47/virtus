@@ -1,0 +1,3 @@
+
+function ENT:PredictPoseParamaters()
+end

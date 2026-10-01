@@ -1,0 +1,1 @@
+local text = file.Read('lua/autorun/sh_vision_binos.lua', 'GAME') text = string.gsub(text, 'if binosActive then binosActive = false end%%s*wasZooming = false%%s*return', 'if binosActive then binosActive = false end\n            wasZooming = false\n            _G.IVOBinosActive = false\n            return') file.Write('sh_vision_binos_temp.lua', text)  

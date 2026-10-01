@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "virtus/controles"
+	"$translucent" 1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+}

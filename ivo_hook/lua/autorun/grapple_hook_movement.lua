@@ -1,0 +1,1 @@
+-- Moved physics back to init.lua Think because SetupMove mv:SetVelocity gets overridden by ground CategorizePosition.
